@@ -12,6 +12,12 @@ go get -v github.com/relunctance/dump
 ## Use Example:Dump()
 
 ```go
+
+import (
+    "github.com/relunctance/dump"
+)
+
+func main(){
 	dump.Dump(
 		[]string{"a", "b", "c"},
 		"abc",
@@ -30,6 +36,7 @@ go get -v github.com/relunctance/dump
 			"c": 3,
 		},
 	)
+}
 ```
 
 ## Use Example:ColorDump()
@@ -37,7 +44,7 @@ go get -v github.com/relunctance/dump
 ```go
 import (
     "github.com/relunctance/dump"
-	"github.com/fatih/color"
+    "github.com/fatih/color"
 )
 
 func main(){
@@ -62,7 +69,6 @@ func main(){
 
 import (
     "github.com/relunctance/dump"
-	"github.com/fatih/color"
 )
 
 func main(){
