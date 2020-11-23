@@ -2,14 +2,20 @@
 Dumps information about a variable  . The Same as [PHP:var_dump](https://www.php.net/var_dump)
 
 
-## Install
+Getting Started
+===============
 
+Installing
+----------
 ```
 go get -v github.com/relunctance/dump
 ```
 
+Usage
+===============
 
-## Use Example:Dump()
+Example:Dump()
+--------------
 
 ```go
 
@@ -39,7 +45,8 @@ func main(){
 }
 ```
 
-## Use Example:ColorDump()
+Example:ColorDump()
+-------------------
 
 ```go
 import (
@@ -62,7 +69,8 @@ func main(){
 }
 ```
 
-## Use Example:P()
+Example:P()
+-----------
 
 
 ```go
