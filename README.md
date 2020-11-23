@@ -1,5 +1,5 @@
 # dump
-Color print package for golang
+Dumps information about a variable  . The Same as [PHP:var_dump](https://www.php.net/var_dump)
 
 
 ## Install
