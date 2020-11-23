@@ -1,4 +1,12 @@
-# dump
+![Dump](dump_logo.png "Dump")
+
+# Dump
+
+[![GoDev](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/relunctance/dump?tab=doc)
+[![codecov](https://codecov.io/gh/go-kit/kit/branch/master/graph/badge.svg)](https://codecov.io/gh/relunctance/dump)
+[![Go Report Card](https://goreportcard.com/badge/relunctance/dump)](https://goreportcard.com/report/relunctance/dump)
+[![Sourcegraph](https://sourcegraph.com/github.com/relunctance/dump/-/badge.svg)](https://sourcegraph.com/github.com/relunctance/dump?badge)
+
 Dumps information about a variable  . The Same as [PHP:var_dump](https://www.php.net/var_dump)
 
 
