@@ -32,6 +32,12 @@ func ColorDump(c *color.Color, vals ...interface{}) {
 	commonPrintln(c.Println, vals...)
 }
 
+// Println
+// alias Dump()
+func Println(vals ...interface{}) {
+	Dump(vals...)
+}
+
 // Dump
 // The same as PHP:var_dump()
 // https://www.php.net/var_dump
