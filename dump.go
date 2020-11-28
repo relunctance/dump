@@ -55,8 +55,9 @@ type F func(...interface{}) (int, error)
 func commonPrintln(f F, vals ...interface{}) {
 	tnow := timeNow()
 	file := debugTrace()
+	f(tnow, file)
 	for _, v := range vals {
-		f(tnow, file, JsonDump(v))
+		f(JsonDump(v))
 	}
 }
 
@@ -80,7 +81,7 @@ func Traces() []string {
 				funcName = funcName[pos+1:]
 			}
 		}
-		ret = append(ret, fmt.Sprintf("%s:%d:%s()\n", file, line, funcName))
+		ret = append(ret, fmt.Sprintf("%s:%d:%s()", file, line, funcName))
 		i++
 	}
 	return ret
